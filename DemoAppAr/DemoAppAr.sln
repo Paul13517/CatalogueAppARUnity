@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixyzPluginEditor.Runtime", "PixyzPluginEditor.Runtime.csproj", "{64fa7e80-2600-bf11-5460-18471ea51bde}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{25d150e8-4620-9dc2-5f9c-9a71ae4682ea}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixyz.PluginUnityEditor.Editor", "Pixyz.PluginUnityEditor.Editor.csproj", "{6db5c4fb-6e8e-3c65-483a-5ad3be4e1cd0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{5bfc4a49-bb48-1ff7-e37a-b0d86015286d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64fa7e80-2600-bf11-5460-18471ea51bde}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64fa7e80-2600-bf11-5460-18471ea51bde}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25d150e8-4620-9dc2-5f9c-9a71ae4682ea}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25d150e8-4620-9dc2-5f9c-9a71ae4682ea}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6db5c4fb-6e8e-3c65-483a-5ad3be4e1cd0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6db5c4fb-6e8e-3c65-483a-5ad3be4e1cd0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5bfc4a49-bb48-1ff7-e37a-b0d86015286d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5bfc4a49-bb48-1ff7-e37a-b0d86015286d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

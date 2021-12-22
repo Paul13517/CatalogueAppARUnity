@@ -1,0 +1,184 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'ru' Physical Memory: 3986 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+D:/Projects/3drepo4unity-master/DemoAppAr
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+58892
+Successfully changed project path to: D:/Projects/3drepo4unity-master/DemoAppAr
+D:/Projects/3drepo4unity-master/DemoAppAr
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 310.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/3drepo4unity-master/DemoAppAr/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630M (ID=0xde9)
+    Vendor:   
+    VRAM:     979 MB
+    Driver:   22.21.13.8205
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002593 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 126.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.525 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026658 seconds.
+Begin MonoManager ReloadAssembly
+[2021/12/21 18:37:14] 
+[2021/12/21 18:37:14] executing command io.getImportFormats
+                                                         [2021/12/21 18:37:14] Command execution time : 0.029 s
+Exception: Product not initialized
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttributes (System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit) [0x00088] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.AssetImporters.ScriptedImporter.RegisterScriptedImporters () [0x00018] in <c9b5231e365148a4bc210cc4e439206d>:0 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.550 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.49 seconds
+Refreshing native plugins compatible for Editor in 6.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1830 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.2 MB.
+System memory in use after: 82.2 MB.
+
+Unloading 184 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 8.086100 ms (FindLiveObjects: 0.598600 ms CreateObjectMapping: 0.283000 ms MarkObjects: 6.708700 ms  DeleteObjects: 0.490600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ProgrammManager.cs
+  artifactKey: Guid(f0bd3b22eba73a4408be58a77a96aeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProgrammManager.cs using Guid(f0bd3b22eba73a4408be58a77a96aeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7f5d6f0a4a65918e66de39628394c6') in 1.059846 seconds
+  Import took 1.071937 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024510 seconds.
+Begin MonoManager ReloadAssembly
+
+[2021/12/21 18:41:25] executing command io.getImportFormats
+[2021/12/21 18:41:25] Command execution time : 0.000 s
+Exception: Product not initialized
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttributes (System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit) [0x00088] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.AssetImporters.ScriptedImporter.RegisterScriptedImporters () [0x00018] in <c9b5231e365148a4bc210cc4e439206d>:0 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.859 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 9.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1815 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 81.0 MB.
+System memory in use after: 81.1 MB.
+
+Unloading 179 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 4.649600 ms (FindLiveObjects: 0.295000 ms CreateObjectMapping: 0.116300 ms MarkObjects: 4.075500 ms  DeleteObjects: 0.159800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 257.940840 seconds.
+  path: Assets/Scripts/ProgrammManager.cs
+  artifactKey: Guid(f0bd3b22eba73a4408be58a77a96aeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProgrammManager.cs using Guid(f0bd3b22eba73a4408be58a77a96aeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8405b3d53f35295bdb5fcb1aed3334da') in 0.021771 seconds
+  Import took 0.105858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 608.004989 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(01e1fe94a03d92a4cad84719a3b6a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(01e1fe94a03d92a4cad84719a3b6a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5acfc3caff76b80884a27df6899d8c') in 0.566870 seconds
+  Import took 0.600433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.100134 seconds.
+  path: Assets/Prefabs/PlaneMarker.prefab
+  artifactKey: Guid(4538cb86e333403479733a55ef8a4dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlaneMarker.prefab using Guid(4538cb86e333403479733a55ef8a4dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aca4403079161304caccb4e1ad8020d') in 4.955292 seconds
+  Import took 5.003471 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22950.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.5 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 3087.139700 ms (FindLiveObjects: 0.518700 ms CreateObjectMapping: 0.108200 ms MarkObjects: 3086.246800 ms  DeleteObjects: 0.262500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19236.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 176 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.6 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 2113.
+Total: 2501.310300 ms (FindLiveObjects: 2.763100 ms CreateObjectMapping: 0.288600 ms MarkObjects: 2497.842000 ms  DeleteObjects: 0.402800 ms)
+
