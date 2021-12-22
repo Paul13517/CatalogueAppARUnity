@@ -11,19 +11,19 @@ D:\Unity\2020.3.3f1\Editor\Unity.exe
 -name
 AssetImportWorker9
 -projectPath
-D:/Projects/3drepo4unity-master/DemoAppAr
+D:/Rep/CatalogueAppARUnity/DemoAppAr
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-58892
-Successfully changed project path to: D:/Projects/3drepo4unity-master/DemoAppAr
-D:/Projects/3drepo4unity-master/DemoAppAr
+50842
+Successfully changed project path to: D:/Rep/CatalogueAppARUnity/DemoAppAr
+D:/Rep/CatalogueAppARUnity/DemoAppAr
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 397.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 381.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Projects/3drepo4unity-master/DemoAppAr/Assets
+[Subsystems] Discovering subsystems at path D:/Rep/CatalogueAppARUnity/DemoAppAr/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
@@ -35,5 +35,21 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002851 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 237.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.926 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.071323 seconds.

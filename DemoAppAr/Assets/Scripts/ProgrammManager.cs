@@ -13,6 +13,9 @@ public class ProgrammManager : MonoBehaviour
     private Vector2 TouchPosition;
 
     public GameObject ObjectToSpawn;
+    private GameObject SelectedObject;
+    [SerializeField] private Camera ARCamera;
+    List<ARRaycastHit> hits = new List<ARRaycastHit>();
     void Start()
     {
         ARRaycastManagerScript = FindObjectOfType<ARRaycastManager>();
@@ -24,11 +27,12 @@ public class ProgrammManager : MonoBehaviour
     void Update()
     {
        ShowMarkerAndSetObject();
+       MoveObject();
     }
 
     void ShowMarkerAndSetObject()
     {
-        List<ARRaycastHit> hits = new List<ARRaycastHit>();
+        
 
         ARRaycastManagerScript.Raycast(new Vector2(Screen.width / 2, Screen.height / 2), hits, TrackableType.Planes);
 
@@ -45,6 +49,45 @@ public class ProgrammManager : MonoBehaviour
             PlaneMarkerPrefab.SetActive(false);
         }
     }
+
+    void MoveObject()
+    {
+        if(Input.touchCount > 0)
+        {
+            Touch touch = Input.GetTouch(0);
+            TouchPosition = touch.position;
+            
+            if (touch.phase == TouchPhase.Began)
+            {
+                Ray ray = ARCamera.ScreenPointToRay(touch.position);
+                RaycastHit hitObject;
+
+                if (Physics.Raycast(ray, out hitObject))
+                {
+                    if (hitObject.collider.CompareTag("UnSelected"))
+                    {
+                        hitObject.collider.gameObject.tag = "Selected";
+                    }
+                }
+            }
+
+            if (touch.phase == TouchPhase.Moved)
+            {
+                ARRaycastManagerScript.Raycast(TouchPosition, hits, TrackableType.Planes);
+                SelectedObject = GameObject.FindWithTag("Selected");
+                SelectedObject.transform.position = hits[0].pose.position;
+            }
+
+            if (touch.phase == TouchPhase.Ended)
+            {
+                if (SelectedObject.CompareTag("Selected"))
+                {
+                    SelectedObject.tag = "UnSelected";
+                }
+            }
+
+        }
+    }    
     
 
     
