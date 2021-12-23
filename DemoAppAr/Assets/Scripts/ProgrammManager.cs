@@ -14,6 +14,7 @@ public class ProgrammManager : MonoBehaviour
 
     public GameObject ObjectToSpawn;
     private GameObject SelectedObject;
+    private Quaternion YRotation;
     [SerializeField] private Camera ARCamera;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
     void Start()
