@@ -496,6 +496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaneMarker
       objectReference: {fileID: 0}
+    - target: {fileID: 9118520874701341666, guid: 4538cb86e333403479733a55ef8a4dbd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9118520874701341670, guid: 4538cb86e333403479733a55ef8a4dbd, type: 3}
       propertyPath: m_RootOrder
       value: 3
