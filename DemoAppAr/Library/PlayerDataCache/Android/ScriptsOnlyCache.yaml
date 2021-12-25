@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ProgrammManager
+    - Rotation
     PixyzPluginEditor.Runtime.dll:
     - Pixyz.ImportSDK.ImportSettings
     - Pixyz.ImportSDK.ImportStamp
@@ -30,6 +31,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -61,34 +70,60 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1818}
     - Class: 114
-      Script: {instanceID: 1964}
+      Script: {instanceID: 1858}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 1958}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 2428}
+    - Class: 114
+      Script: {instanceID: 2814}
+    - Class: 114
+      Script: {instanceID: 2844}
+    - Class: 114
+      Script: {instanceID: 2954}
+    - Class: 114
+      Script: {instanceID: 3138}
+    - Class: 114
+      Script: {instanceID: 3374}
+    - Class: 114
+      Script: {instanceID: 3492}
+    - Class: 114
+      Script: {instanceID: 3664}
+    - Class: 114
+      Script: {instanceID: 3672}
     - Class: 114
       Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 4086}
     - Class: 114
-      Script: {instanceID: 4092}
+      Script: {instanceID: 4152}
     - Class: 114
-      Script: {instanceID: 4158}
+      Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4160}
+      Script: {instanceID: 4422}
     - Class: 114
-      Script: {instanceID: 4428}
+      Script: {instanceID: 4444}
     - Class: 114
-      Script: {instanceID: 4450}
+      Script: {instanceID: 5090}
     - Class: 114
-      Script: {instanceID: 5096}
+      Script: {instanceID: 56160}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -579,7 +614,7 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: c637d04fe2a274ef21c7375339169dc0
+      Hash: 57c692453932417a01572ffd5a33f62b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProgrammManager
@@ -841,6 +876,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotation
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

@@ -17,6 +17,7 @@ public class ProgrammManager : MonoBehaviour
     private Quaternion YRotation;
     [SerializeField] private Camera ARCamera;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
+    public bool Rotation;
     void Start()
     {
         ARRaycastManagerScript = FindObjectOfType<ARRaycastManager>();

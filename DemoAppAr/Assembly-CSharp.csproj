@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ProgrammManager.cs" />
+     <Compile Include="Assets\Scripts\Rotation.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:/Unity/2020.3.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
