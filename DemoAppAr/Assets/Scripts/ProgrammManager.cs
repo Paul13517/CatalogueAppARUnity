@@ -18,6 +18,7 @@ public class ProgrammManager : MonoBehaviour
     [SerializeField] private Camera ARCamera;
     List<ARRaycastHit> hits = new List<ARRaycastHit>();
     public bool Rotation;
+    private bool Installed = true;
     void Start()
     {
         ARRaycastManagerScript = FindObjectOfType<ARRaycastManager>();
@@ -29,7 +30,7 @@ public class ProgrammManager : MonoBehaviour
     void Update()
     {
        ShowMarkerAndSetObject();
-       MoveObject();
+       MoveAndRotateObject();
     }
 
     void ShowMarkerAndSetObject()
@@ -45,14 +46,15 @@ public class ProgrammManager : MonoBehaviour
             PlaneMarkerPrefab.SetActive(true);
         }
        // set object
-        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+        if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began && Installed)
         {
             Instantiate(ObjectToSpawn, hits[0].pose.position, ObjectToSpawn.transform.rotation);
             PlaneMarkerPrefab.SetActive(false);
+            Installed = false;
         }
     }
 
-    void MoveObject()
+    void MoveAndRotateObject()
     {
         if(Input.touchCount > 0)
         {
@@ -72,12 +74,23 @@ public class ProgrammManager : MonoBehaviour
                     }
                 }
             }
+           
+           SelectedObject = GameObject.FindWithTag("Selected");
 
-            if (touch.phase == TouchPhase.Moved)
+            if (touch.phase == TouchPhase.Moved && Input.touchCount == 1 )
             {
-                ARRaycastManagerScript.Raycast(TouchPosition, hits, TrackableType.Planes);
-                SelectedObject = GameObject.FindWithTag("Selected");
-                SelectedObject.transform.position = hits[0].pose.position;
+                if (Rotation)
+                {
+                   // Rotate Object by 1 finger
+                    YRotation = Quaternion.Euler(0f, -touch.deltaPosition.x * 0.1f, 0f);
+                    SelectedObject.transform.rotation = YRotation * SelectedObject.transform.rotation;
+                }
+                else
+                {
+                   // Move Object
+                    ARRaycastManagerScript.Raycast(TouchPosition, hits, TrackableType.Planes);
+                    SelectedObject.transform.position = hits[0].pose.position;
+                }
             }
 
             if (touch.phase == TouchPhase.Ended)
