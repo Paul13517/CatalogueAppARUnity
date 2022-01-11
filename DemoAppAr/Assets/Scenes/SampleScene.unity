@@ -570,9 +570,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaneMarkerPrefab: {fileID: 1379641084}
-  ObjectToSpawn: {fileID: 2205619859939096596, guid: a2ee88b024716424a87feaf3414bc2c7, type: 3}
-  Rotation: 0
+  ObjectToSpawn: {fileID: 2442064957769634281, guid: ca1913220a25e2246978c93bae8d11e4, type: 3}
   ARCamera: {fileID: 1577749884}
+  Rotation: 0
 --- !u!114 &1114040584
 MonoBehaviour:
   m_ObjectHideFlags: 0

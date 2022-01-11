@@ -3,10 +3,11 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ProgrammManager
     - Rotation
+    Pixyz.PluginUnityEditor.Editor.dll:
+    - Pixyz.ImportSDK.ImportStampEditor
     PixyzPluginEditor.Runtime.dll:
     - Pixyz.ImportSDK.ImportSettings
     - Pixyz.ImportSDK.ImportStamp
-    - Pixyz.ImportSDK.Metadata
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.ARCore.Editor.dll:
@@ -89,8 +90,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3374}
     - Class: 114
       Script: {instanceID: 3492}
-    - Class: 114
-      Script: {instanceID: 3664}
     - Class: 114
       Script: {instanceID: 3672}
     - Class: 114
