@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1415; Version 2009; 64bit' Language: 'ru' Physical Memory: 3986 MB
+OS: 'Windows 10 Pro; OS build 19042.1466; Version 2009; 64bit' Language: 'ru' Physical Memory: 3986 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Rep/CatalogueAppARUnity/DemoAppAr
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49957
+63971
 Successfully changed project path to: D:/Rep/CatalogueAppARUnity/DemoAppAr
 D:/Rep/CatalogueAppARUnity/DemoAppAr
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 7278.89 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1739.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,5 +35,203 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003341 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.314 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.088298 seconds.
+Begin MonoManager ReloadAssembly
+[2022/01/14 18:10:19] 
+[2022/01/14 18:10:19] executing command io.getImportFormats
+                                                         [2022/01/14 18:10:19] Command execution time : 0.000 s
+Exception: Product not initialized
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttributes (System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit) [0x00088] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.AssetImporters.ScriptedImporter.RegisterScriptedImporters () [0x00018] in <c9b5231e365148a4bc210cc4e439206d>:0 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 114.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.289 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.37 seconds
+Refreshing native plugins compatible for Editor in 3.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 185 unused Assets to reduce memory usage. Loaded Objects now: 2115.
+Total: 3.907600 ms (FindLiveObjects: 0.280500 ms CreateObjectMapping: 0.130200 ms MarkObjects: 3.225900 ms  DeleteObjects: 0.268300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f9b3d276004fed4091bb4f6275a131') in 11.777100 seconds
+  Import took 11.930603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.417293 seconds.
+  path: Assets/Scripts/FaceCamera.cs
+  artifactKey: Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FaceCamera.cs using Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e108e3ff4770fe5a08ff831c0506c8') in 1.022979 seconds
+  Import took 1.113198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378515 seconds.
+  path: Assets/Scripts/FaceCamera.cs
+  artifactKey: Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FaceCamera.cs using Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e108e3ff4770fe5a08ff831c0506c8') in 0.010071 seconds
+  Import took 0.230778 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 10.510313 seconds.
+Begin MonoManager ReloadAssembly
+
+[2022/01/14 18:13:43] executing command io.getImportFormats
+[2022/01/14 18:13:43] Command execution time : 0.000 s
+Exception: Product not initialized
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttributes (System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit) [0x00088] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.AssetImporters.ScriptedImporter.RegisterScriptedImporters () [0x00018] in <c9b5231e365148a4bc210cc4e439206d>:0 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.567 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 4.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 2164.
+Total: 40.741300 ms (FindLiveObjects: 0.632800 ms CreateObjectMapping: 0.178400 ms MarkObjects: 39.692200 ms  DeleteObjects: 0.234100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 707.512255 seconds.
+  path: Assets/Scripts/FaceCamera.cs
+  artifactKey: Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FaceCamera.cs using Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59d9e71af463d29773c80d015f3391d') in 0.384070 seconds
+  Import took 0.719029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.213024 seconds.
+  path: Assets/Scripts/FaceCamera.cs
+  artifactKey: Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FaceCamera.cs using Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59d9e71af463d29773c80d015f3391d') in 0.038424 seconds
+  Import took 0.089771 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 2.207289 seconds.
+Begin MonoManager ReloadAssembly
+
+[2022/01/14 18:32:03] executing command io.getImportFormats
+[2022/01/14 18:32:03] Command execution time : 0.000 s
+Exception: Product not initialized
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttributes (System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit) [0x00088] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.AssetImporters.ScriptedImporter.RegisterScriptedImporters () [0x00018] in <c9b5231e365148a4bc210cc4e439206d>:0 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.206 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 3.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 180 unused Assets to reduce memory usage. Loaded Objects now: 2168.
+Total: 7.922600 ms (FindLiveObjects: 0.449200 ms CreateObjectMapping: 0.145800 ms MarkObjects: 6.976200 ms  DeleteObjects: 0.347700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 543.395569 seconds.
+  path: Assets/Scripts/FaceCamera.cs
+  artifactKey: Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FaceCamera.cs using Guid(c58f59a0e5387f44591c3e73940f4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e752a0fc10a901660a6da8f9de0d73ed') in 0.017719 seconds
+  Import took 0.034378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.968966 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(18db69930a616804db0033f81a040a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(18db69930a616804db0033f81a040a3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ddb6fe5445de646d2de3014b57348e') in 0.273998 seconds
+  Import took 0.292007 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 24107.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.7 MB.
+System memory in use after: 56.8 MB.
+
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 2169.
+Total: 8013.621200 ms (FindLiveObjects: 2.760900 ms CreateObjectMapping: 0.199800 ms MarkObjects: 8010.304600 ms  DeleteObjects: 0.347700 ms)
+

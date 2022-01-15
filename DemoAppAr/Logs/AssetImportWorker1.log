@@ -1,0 +1,293 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1466; Version 2009; 64bit' Language: 'ru' Physical Memory: 3986 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Rep/CatalogueAppARUnity/DemoAppAr
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+60041
+Successfully changed project path to: D:/Rep/CatalogueAppARUnity/DemoAppAr
+D:/Rep/CatalogueAppARUnity/DemoAppAr
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 208.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Rep/CatalogueAppARUnity/DemoAppAr/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630M (ID=0xde9)
+    Vendor:   
+    VRAM:     979 MB
+    Driver:   22.21.13.8205
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008868 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 201.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.953 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.040027 seconds.
+Begin MonoManager ReloadAssembly
+[2022/01/15 16:20:04] 
+[2022/01/15 16:20:04] executing command io.getImportFormats
+                                                         [2022/01/15 16:20:04] Command execution time : 0.001 s
+Exception: Product not initialized
+  at (wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Type attributeType, System.Boolean inherit) [0x00038] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttributes (System.Reflection.MemberInfo element, System.Type type, System.Boolean inherit) [0x00088] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType, System.Boolean inherit) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at System.Attribute.GetCustomAttribute (System.Reflection.MemberInfo element, System.Type attributeType) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
+  at UnityEditor.AssetImporters.ScriptedImporter.RegisterScriptedImporters () [0x00018] in <c9b5231e365148a4bc210cc4e439206d>:0 
+
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 107.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.785 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 185 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 4.604800 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.165700 ms MarkObjects: 3.861200 ms  DeleteObjects: 0.217700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs
+  artifactKey: Guid(01e1fe94a03d92a4cad84719a3b6a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(01e1fe94a03d92a4cad84719a3b6a90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5acfc3caff76b80884a27df6899d8c') in 0.147603 seconds
+  Import took 0.192150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48439929fd7f96094d602825387aa86') in 11.485954 seconds
+  Import took 11.629363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.474285 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b75fe452a42925be1ce41491f8b1eb7') in 5.969337 seconds
+  Import took 6.097315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.506469 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6b46d24e8673902b0a3f10a02143d8') in 4.857723 seconds
+  Import took 4.908353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.418415 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54545a7477e732fe1689aa4ba3d3d43') in 45.485731 seconds
+  Import took 45.604293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.607025 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3643da5762cb85b58e4a6eb3d8435879') in 4.291802 seconds
+  Import took 4.387908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.584562 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b2ceca1a93661b223844c3dfc381e7') in 4.416487 seconds
+  Import took 4.489814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.162635 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c561657979358ece22c01e8159cf34') in 4.224926 seconds
+  Import took 4.372784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.614099 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3a3288fa7f9c503c78742361c08792') in 5.407964 seconds
+  Import took 5.505288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.352830 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3265d2623a8d14cdc2c0f8d0d83d9887') in 4.792119 seconds
+  Import took 4.895793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.361585 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb87ae538ea242b34fab1f5fcd3cd783') in 5.640840 seconds
+  Import took 5.764624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.259727 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ea8fd7daaf562693bbd112d425de15') in 4.658256 seconds
+  Import took 4.728748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.611655 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7884f719994f72e4fb725de7b5990c') in 5.069026 seconds
+  Import took 5.168736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.873297 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd2cb4ebcc4bc703175e41e9eff5f2e') in 4.551610 seconds
+  Import took 4.630418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.706001 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7b53cd7e0c53eac6b1b727121d3ef7') in 4.390200 seconds
+  Import took 4.500550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.201983 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107a1c7384c38631d01d0ee627e51616') in 4.598253 seconds
+  Import took 4.675236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.441785 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de09871fb9177c59c1a53c4550ec30e') in 4.469420 seconds
+  Import took 4.526425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.159227 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5103042b0e88908a4f4067ed0a2506') in 4.928563 seconds
+  Import took 5.029691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.108003 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fccf3909877e05e5c0b8772005b4409') in 4.915589 seconds
+  Import took 4.976331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.826546 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff8e0fd98b239848390c06842b9360e') in 7.398015 seconds
+  Import took 7.475299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.957818 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df85b3637532b3ca3d29067500001f9') in 4.338691 seconds
+  Import took 4.376988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.367038 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638596c25c7a94bd29727428bd2d933a') in 4.989073 seconds
+  Import took 5.048548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.886231 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6779c6b2a7d626d43bc0c826d35dca70') in 4.634790 seconds
+  Import took 4.692720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.606433 seconds.
+  path: Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab
+  artifactKey: Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ТЕКИ18.342.00.00.000 Тепловой насос МАКК Т 320-301.x_b.prefab using Guid(ca1913220a25e2246978c93bae8d11e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de40206c3a532922217272503287749') in 4.398210 seconds
+  Import took 4.442687 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8934.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 177 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.1 MB.
+System memory in use after: 70.2 MB.
+
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 2161.
+Total: 14524.032400 ms (FindLiveObjects: 0.366700 ms CreateObjectMapping: 0.153300 ms MarkObjects: 14523.263700 ms  DeleteObjects: 0.244000 ms)
+
